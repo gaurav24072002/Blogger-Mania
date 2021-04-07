@@ -8,17 +8,39 @@ function Navbar() {
                 <Link className="navbar-brand" to="/">
                   [ Blog-Mania ] 
         </Link>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+        <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div style={{display:'flex'}} class="bg-dark p-4">
+    
+                       
+                            <a style={{color:'white'}} className="nav-link" href="https://gaurav24072002.github.io/">
+                                Home 
+                            </a>
+                        
+                        
+                            <Link style={{color:'white'}} className="nav-link" to="/post">
+                                Posts
+              </Link>
+                        
+                        
+                            <Link style={{color:'white'}} className="nav-link" to="/add-post">
+                                Add Post
+              </Link>
+                        
+                            <Link style={{color:'white'}} className="nav-link" to="/">
+                                Sign out
+              </Link>
+                        
+                        
+                    
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
                 <div className="collapse navbar-collapse" >
                     <ul className="navbar-nav">
                         <li className="nav-item">

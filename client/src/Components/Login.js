@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import {Link,useHistory} from 'react-router-dom'
-import axios from 'axios'
-import '../style/Login.css';
+import axios from 'axios';
 
 const Login = () => {
     const [email,setemail] = useState('');
@@ -33,7 +32,7 @@ const Login = () => {
 
     
     return (
-        <div className='container' >
+        <div className='container' style={{overflow: 'hidden'}} >
             <h2 className='m-5 text-center' >Login To Your BLOGS</h2>
            <form onSubmit={(e)=>Logincheck(e)} className='col-md-5 mx-auto' >
                 <h5 className='p-3 text-center text-white' >{msg}</h5>

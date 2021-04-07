@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
-import '../style/Register.css';
 
 const Register = () => {
     const [email,setemail] = useState('');
@@ -23,7 +22,7 @@ const Register = () => {
       .catch(err => console.log(err))
     }
     return (
-        <div className='container'>
+        <div className='container'style={{overflow: 'hidden'}}>
             <h2 className='m-5 text-center' >Register for Your BLOGS</h2>
            <form onSubmit={(e)=>Register(e)} className='col-md-5 mx-auto' >
                 <div className="form-group">
