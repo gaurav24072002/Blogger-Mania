@@ -6,7 +6,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className="navbar-brand" to="/">
-                  [ Blog ] 
+                  [ Blog-Mania ] 
         </Link>
                 <button
                     className="navbar-toggler"

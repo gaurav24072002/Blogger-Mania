@@ -34,8 +34,8 @@ function AddPost() {
                   <input type="text" value={title} className="form-control" onChange={(e)=>{settitle(e.target.value)}} placeholder="Enter title" required />
                 </div>
                 <div className="form-group">
-                  <label >Auther</label>
-                  <input type="text" value={auth} className="form-control" onChange={(e)=>{setauth(e.target.value)}} placeholder="Enter Name of Auther" required />
+                  <label >Author</label>
+                  <input type="text" value={auth} className="form-control" onChange={(e)=>{setauth(e.target.value)}} placeholder="Enter Name of Author" required />
                 </div>
                 <div className="form-group">
                   <label >Description</label>
